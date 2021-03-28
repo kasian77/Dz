@@ -1,5 +1,4 @@
 <?php
-$users1 = ["Mark" => "Hello", "Adam" => "So Sorry", "Diana" => "Bye"];
-$users2 = ["Tom" => "Run", "Mark" => "Love", "Adam" => "Cury"];
-$r = array_merge($users1, $users2);
-print_r ($r);
+$s = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi blandit tellus ante, at hendrerit sapien viverra a. Ut lobortis sem non nisi.";
+$str = ">". wordwrap($s, 20, "\n>");
+echo $str;
